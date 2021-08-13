@@ -4,7 +4,7 @@ addEventListener('fetch', event => {
 
 async function handleRequest() {
   const data = {
-    ppc_usd: await peercoin_kv.get("ppc_usd")
+    PPC_USD: parseFloat(await peercoin_kv.get("PPC_USD"))
   }
   const json = JSON.stringify(data, null, 2)
 
