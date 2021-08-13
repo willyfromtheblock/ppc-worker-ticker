@@ -1,1 +1,1 @@
-Cloudflare worker that updates PPC/USD price from coinpaprika API.
+Cloudflare worker that fetches PPC/USD price from Cloudflare KV database and returns it as JSON.
