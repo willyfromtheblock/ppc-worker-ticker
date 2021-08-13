@@ -1,15 +1,5 @@
-# 👷 `worker-template` Hello World
+Cloudflare worker that fetches PPC/USD price from Cloudflare KV database and returns it as JSON.
 
-A template for kick starting a Cloudflare worker project.
-
-[`index.js`](https://github.com/cloudflare/worker-template/blob/master/index.js) is the content of the Workers script.
-
-#### Wrangler
-
-To generate using [wrangler](https://github.com/cloudflare/wrangler)
-
-```
-wrangler generate projectname https://github.com/cloudflare/worker-template
-```
-
-Further documentation for Wrangler can be found [here](https://developers.cloudflare.com/workers/tooling/wrangler).
+Powered by <a href="https://coinpaprika.com">
+<img width="100" alt="cp_logo_hor_200x36px" src="https://user-images.githubusercontent.com/11148913/129355246-43d2d341-0cb4-43f9-90e8-1f20bfce3551.png">
+</a>
